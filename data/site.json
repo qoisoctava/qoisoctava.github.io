@@ -22,8 +22,8 @@
     "primary": { "label": "GET IN TOUCH ▾", "action": "menu" },
     "secondary": {
       "label": "DOWNLOAD CV",
-      "href": "assets/CV.pdf",
-      "external": false
+      "href": "https://id.jobstreet.com/id/profiles/muhammadqoishuzyan-octava-8WKChjfDx6",
+      "external": true
     }
   },
   "dropdownMenu": {

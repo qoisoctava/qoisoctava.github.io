@@ -63,6 +63,10 @@ function renderSite() {
   const cvEl = $("#btn-cv");
   cvEl.textContent = cv.label;
   cvEl.href = cv.href;
+  if (cv.external) {
+    cvEl.target = "_blank";
+    cvEl.rel = "noreferrer noopener";
+  }
 
   // dropdown menu
   $("#menu-title").textContent = s.dropdownMenu.title;
