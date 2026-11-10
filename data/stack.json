@@ -1,0 +1,56 @@
+{
+  "tech_stack": {
+    "Programming": ["Python", "SQL", "HTML", "CSS", "JavaScript"],
+    "Software Development": ["Flask", "FastAPI", "Flet", "NodeJS"],
+    "Data and AI": [
+      "Pandas",
+      "Numpy",
+      "Scikit-learn",
+      "Pytorch",
+      "Airflow",
+      "PySpark",
+      "dbt",
+      "Snowflake",
+      "Plotly",
+      "Streamlit",
+      "Metabase",
+      "Tableau",
+      "Databricks",
+      "Selenium"
+    ],
+    "Development & Collaboration": [
+      "YouTrack",
+      "Miro",
+      "Notion",
+      "Figma",
+      "Docker",
+      "Git",
+      "Hugging Face",
+      "AWS"
+    ]
+  },
+  "featured": ["Python", "SQL", "dbt"],
+  "tier_big": [
+    "Python",
+    "SQL",
+    "Pandas",
+    "Pytorch",
+    "PySpark",
+    "Airflow",
+    "Databricks"
+  ],
+  "tier_mid": [
+    "Numpy",
+    "Scikit-learn",
+    "FastAPI",
+    "Flask",
+    "Docker",
+    "NodeJS",
+    "Git",
+    "Metabase",
+    "Snowflake",
+    "Tableau",
+    "Plotly",
+    "Hugging Face"
+  ]
+}

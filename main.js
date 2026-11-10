@@ -6,10 +6,11 @@
      projects.json    → window Projects
      publications.json→ window Publications (DOI + sertifikasi)
      contact.json     → window Contact
+     stack.json       → wordcloud tools & tech di hero
    ========================================================= */
 "use strict";
 
-const DATA_FILES = ["site", "profile", "projects", "publications", "contact"];
+const DATA_FILES = ["site", "profile", "projects", "publications", "contact", "stack"];
 const DATA = {};
 
 /* ---------- util ---------- */
@@ -46,7 +47,7 @@ function renderSite() {
     .join("");
   $$("#nav-links button").forEach((b) => (b.onclick = () => openWindow(b.dataset.win)));
 
-  $("#headline").textContent = "MESSY DATA IN.\nWORKING SYSTEMS OUT.";
+  $("#headline").textContent = s.headline;
 
   $("#intro").textContent = s.heroIntro;
 
@@ -249,6 +250,68 @@ function renderContact() {
     </div>`;
 }
 
+/* ---------- render: stack (wordcloud) ---------- */
+function renderStack() {
+  const host = $("#stack-words");
+  const card = $("#stack-cloud");
+  if (!host || !card) return;
+  const d = DATA.stack || {};
+  const groups = d.tech_stack || {};
+  // daftar kata yang berchip / besar / menengah — sekarang diset lewat data/stack.json
+  const BIG = new Set(d.tier_big || []);
+  const MID = new Set(d.tier_mid || []);
+  const GOLD = new Set(d.featured || []); // kosong = tanpa chip
+
+  const items = [];
+  for (const [, list] of Object.entries(groups))
+    for (const w of list) items.push({ w, tier: BIG.has(w) ? 0 : MID.has(w) ? 1 : 2 });
+
+  // PRNG deterministik supaya bentuk cloud identik di setiap refresh
+  let seed = 20061107;
+  const rnd = () => (seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648;
+  items.sort((a, b) => a.tier - b.tier || rnd() - 0.5);
+
+  const W = card.clientWidth || 480;
+  const H = (card.clientHeight || 560) - 20; // tanpa chip — seluruh area terpakai
+  const boxes = [];
+  const overlap = (a, b) => a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+
+  const ctx = document.createElement("canvas").getContext("2d");
+  const placed = [];
+  for (const it of items) {
+    let px = it.tier === 0 ? 29 : it.tier === 1 ? 21 : 15.5;
+    let ok = false;
+    while (!ok && px >= 11) {
+      ctx.font = `700 ${px}px "Liberation Mono", Menlo, Consolas, monospace`;
+      const wMeas = Math.ceil(ctx.measureText(it.w).width) + (GOLD.has(it.w) ? 26 : 10);
+      const hMeas = Math.ceil(px * 1.15) + (GOLD.has(it.w) ? 12 : 8);
+      for (let a = 0; a < 100 && !ok; a++) {
+        const x = 10 + rnd() * Math.max(1, W - wMeas - 20);
+        const y = 12 + rnd() * Math.max(1, H - hMeas - 14);
+        const box = { x: x - 4, y: y - 4, w: wMeas + 8, h: hMeas + 8 };
+        if (!boxes.some((b) => overlap(box, b))) {
+          boxes.push(box);
+          placed.push({ t: it.w, x, y, px, tier: it.tier, gold: GOLD.has(it.w), shgrey: rnd() < 0.5 });
+          ok = true;
+        }
+      }
+      if (!ok) px -= 2; // kecilkan terus sampai muat
+    }
+  }
+
+  host.innerHTML = placed
+    .map((p) => {
+      const cls = [
+        "stack-word",
+        p.tier === 0 ? "stack-word--big" : p.tier === 2 ? "stack-word--small" : "",
+        p.gold ? "stack-word--gold" : "stack-word--" + (p.shgrey ? "shg" : "shw")
+      ]
+        .filter(Boolean).join(" ");
+      return `<span class="${cls}" style="left:${p.x.toFixed(0)}px;top:${p.y.toFixed(0)}px;font-size:${p.px}px">${esc(p.t)}</span>`;
+    })
+    .join("");
+}
+
 /* ---------- window manager ---------- */
 let currentWin = null;
 const WIN_IDS = { about: "win-about", projects: "win-projects", publications: "win-publications", contact: "win-contact" };
@@ -304,6 +367,7 @@ async function boot() {
   renderProjects();
   renderPublications();
   renderContact();
+  renderStack();
 
   $("#btn-menu").onclick = (e) => { e.stopPropagation(); toggleMenu(); };
   $("#btn-cv").addEventListener("click", closeMenu);
