@@ -1,0 +1,49 @@
+{
+  "window": { "title": "ABOUT.TXT — PROFILE.SYS" },
+  "heading": "PROFILE.",
+  "paragraphs": [
+    "I build data systems that ship. That includes master-data platforms, reproducible pipelines, and applied machine learning, from the MinerbaOne MDM project for Indonesia's Ministry of Energy and Mineral Resources to teaching and research work in data mining.",
+    "I care about boring infrastructure that works: clean schemas, measured experiments, reproducible pipelines, and teaching students to do the same."
+  ],
+  "researchFocus": "RESEARCH FOCUS :: ASR · DATA PIPELINES · NLP",
+  "education": [
+    {
+      "title": "2024 — 2026 · M.ENG. INFORMATION ENGINEERING, UGM",
+      "note": "GPA 3.5 :: FINAL THESIS — DATA-ENGINEERING PIPELINES FOR DOMAIN-SPECIFIC ASR"
+    },
+    {
+      "title": "2019 — 2023 · S.TR.KOM. SOFTWARE ENGINEERING TECHNOLOGY, UGM",
+      "note": "GPA 3.7 :: APPLIED RESEARCH — MACHINE LEARNING · WEB DEVELOPMENT · NLP"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 — NOW",
+      "role": "TEACHING & RESEARCH ASSISTANT — DATA MINING, UGM",
+      "org": "Sekolah Vokasi / Ilkom UGM",
+      "note": "Mengampu praktik & riset data mining; mendampingi projek sklearn-based NLP terbit di IEEE."
+    },
+    {
+      "period": "2024",
+      "role": "SISTEM ANALIS DATABASE — MINERBAONE (KEMENTERIAN ESDM)",
+      "org": "PT. EPSI DJAYA / MDM PROJECT",
+      "note": "Memetakan ribuan tabel legacy menjadi satu sumber data MDM di sektor mineral & batubara."
+    },
+    {
+      "period": "2021 — 2024",
+      "role": "PENELITI MUDA — SISTEM NLP & SPEECH",
+      "org": "Independent / UGM Lab",
+      "note": "Fine-tune Whisper untuk domain spesifik & eksperimen feature engineering untuk klasifikasi teks."
+    }
+  ],
+  "currently": {
+    "title": "CURRENTLY.",
+    "rows": [
+      { "label": "STATUS", "value": "M.ENG. GRADUATE — GPA 3.5/4.0", "big": true },
+      { "label": "BASE", "value": "MADIUN, INDONESIA · OPEN TO REMOTE", "big": true },
+      { "label": "OPEN FOR", "value": "DATA ENGINEERING & APPLIED ML ROLES", "gold": true }
+    ],
+    "mailLabel": "MAIL",
+    "mail": ""
+  }
+}

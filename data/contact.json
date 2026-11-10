@@ -1,0 +1,15 @@
+{
+  "window": { "title": "CONTACT.MSG — SAY.HI" },
+  "heading": "LET'S BUILD\nWORKING SYSTEMS.",
+  "intro": "Research collaborations, consulting-style data problems, teaching collaborations, or a role that ships real pipelines — my inbox is open.",
+  "cta": { "label": "EMAIL · AVAILABLE ON REQUEST", "href": null },
+  "rows": [
+    { "label": "PHONE · AVAILABLE ON REQUEST", "href": null },
+    { "label": "LINKEDIN.COM/IN/QOISOCTAVA", "href": "https://www.linkedin.com/in/qoisoctava", "external": true },
+    { "label": "MADIUN, INDONESIA", "href": null }
+  ],
+  "footer": {
+    "left": "© 2026 MUHAMMAD QOIS HUZYAN OCTAVA",
+    "right": "BUILT WITH FIGCRAFT · MADE IN YOGYAKARTA ★"
+  }
+}

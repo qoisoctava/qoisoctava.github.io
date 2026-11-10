@@ -1,0 +1,37 @@
+{
+  "brand": "QOIS.OCTAVA",
+  "footer": {
+    "left": "© 2026 MUHAMMAD QOIS HUZYAN OCTAVA",
+    "right": "BUILT WITH FIGCRAFT · MADE IN YOGYAKARTA ★"
+  },
+  "backdropOpacity": 0.25,
+  "navbar": [
+    { "id": "about", "label": "ABOUT" },
+    { "id": "projects", "label": "PROJECTS" },
+    { "id": "publications", "label": "PUBLICATIONS" },
+    { "id": "contact", "label": "CONTACT ↗" }
+  ],
+  "badge": "OPEN FOR COLLAB :: DATA — ML — ASR",
+  "stats": [
+    { "value": "3", "label": "FEATURED\nPROJECTS" },
+    { "value": "3", "label": "PEER-REVIEWED\nPAPERS" },
+    { "value": "4", "label": "CERTS &\nDEGREES" }
+  ],
+  "buttons": {
+    "primary": { "label": "GET IN TOUCH ▾", "action": "menu" },
+    "secondary": { "label": "DOWNLOAD CV", "href": "assets/CV.pdf", "external": false }
+  },
+  "dropdownMenu": {
+    "title": "OPEN_WITH.EXE",
+    "items": [
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/qoisoctava", "external": true },
+      { "label": "GOOGLE SCHOLAR", "href": "https://scholar.google.com/citations?user=PLACEHOLDER", "external": true },
+      { "label": "ACADEMIC PAGE", "href": "https://academic.ugm.ac.id/PLACEHOLDER", "external": true }
+    ]
+  },
+  "contactRow": [
+    { "label": "EMAIL · AVAILABLE ON REQUEST", "href": null },
+    { "label": "LINKEDIN.COM/IN/QOISOCTAVA", "href": "https://www.linkedin.com/in/qoisoctava", "external": true },
+    { "label": "MADIUN ➝ YOGYAKARTA, INDONESIA", "href": null }
+  ]
+}

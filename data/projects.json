@@ -1,0 +1,28 @@
+{
+  "window": { "title": "PROJECTS.EXE — SELECTED_WORK" },
+  "heading": "PROJECTS.",
+  "items": [
+    {
+      "num": "01",
+      "year": "2025",
+      "title": "LLM-RAG SYSTEM FOR DISASTER MITIGATION",
+      "desc": "Fine-tuned Whisper for Indonesian disaster-specific ASR — up to 2.5× lower word error rate than the vanilla model. Built the RAG data layer: transcribed YouTube audio into structured text, auto-filtered via ChatGPT & Gemini APIs.",
+      "tags": "PYTORCH · TRANSFORMERS · WHISPER · HF: OCTAVA/WHISPER-SMALL-DISASTER"
+    },
+    {
+      "num": "02",
+      "year": "2024",
+      "title": "MINERBAONE GOVERNANCE WEB APP",
+      "desc": "Database architecture for Indonesia's mineral & coal governance (ESDM): analysed thousands of tables across legacy systems, unified them into one MDM source, designed a dynamic warehouse and refactored ORM queries into raw PostgreSQL.",
+      "tags": "POSTGRESQL · ERD · DATA WAREHOUSE · MDM"
+    },
+    {
+      "num": "03",
+      "year": "2023",
+      "title": "WEB SENTIMENT ANALYSIS DASHBOARD",
+      "desc": "TF-IDF enhanced with statistical feature engineering + SVM, shipped as an intuitive web dashboard. Findings presented at the 3ICT conference and published in the IEEE proceedings.",
+      "tags": "SCIKIT-LEARN · SVM · TF-IDF · IEEE 3ICT"
+    }
+  ],
+  "moreLink": { "label": "MORE ⟶ HF & GITHUB @OCTAVA", "href": "https://huggingface.co/octava", "external": true }
+}

@@ -1,0 +1,35 @@
+{
+  "window": { "title": "PUBLICATIONS.PDF — DOI.VERIFIED" },
+  "heading": "PUBLICATIONS.",
+  "items": [
+    {
+      "num": "01",
+      "title": "FINE-TUNING WHISPER FOR DOMAIN-SPECIFIC ASR: TRANSCRIBING INDONESIAN YOUTUBE CONTENT ON LOCAL WISDOM IN DISASTER MITIGATION",
+      "authors": "OCTAVA, M.Q.H. · PRATAMA, A.R. · ALFAROZI, S.A.I. — FIRST AUTHOR",
+      "doi": "DOI 10.1109/ICAICTA67604.2025.11335113",
+      "doiHref": "https://doi.org/10.1109/ICAICTA67604.2025.11335113",
+      "venue": "ICAICTA 2025 · IEEE"
+    },
+    {
+      "num": "02",
+      "title": "APPLICATION OF THE OUTLIER DETECTION METHOD FOR WEB-BASED BLOOD GLUCOSE LEVEL MONITORING SYSTEM",
+      "authors": "NURHALIZA, R.A. · OCTAVA, M.Q.H. · HILMY, F.M. · FAROOQ, U. · ALFIAN, G.",
+      "doi": "DOI 10.11591/EEI.V13I4.7717",
+      "doiHref": "https://doi.org/10.11591/EEI.V13I4.7717",
+      "venue": "EEI (IAES) 2024"
+    },
+    {
+      "num": "03",
+      "title": "WEB-BASED SENTIMENT ANALYSIS SYSTEM USING SVM AND TF-IDF WITH STATISTICAL FEATURE",
+      "authors": "OCTAVA, M.Q.H. · PUTRI, D.G.P. · HILMY, F.M. · FAROOQ, U. · NURHALIZA, R.A. · ALFIAN, G. — FIRST AUTHOR",
+      "doi": "DOI 10.1109/3ICT60104.2023.10391734",
+      "doiHref": "https://doi.org/10.1109/3ICT60104.2023.10391734",
+      "venue": "3ICT 2023 · IEEE · PRESENTED AT THE CONFERENCE"
+    }
+  ],
+  "certsLabel": "CERTS ⟶",
+  "certs": [
+    { "label": "MICROSOFT AZURE AI ENGINEER ASSOCIATE · 2024", "gold": false },
+    { "label": "HUAWEI ICT ASSOCIATE — AI · 2021", "gold": true }
+  ]
+}
