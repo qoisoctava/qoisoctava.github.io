@@ -2,51 +2,61 @@
   "window": { "title": "ABOUT.TXT — PROFILE.SYS" },
   "heading": "PROFILE.",
   "paragraphs": [
-    "I build data systems that ship. That includes master-data platforms, reproducible pipelines, and applied machine learning, from the MinerbaOne MDM project for Indonesia's Ministry of Energy and Mineral Resources to teaching and research work in data mining.",
-    "I care about boring infrastructure that works: clean schemas, measured experiments, reproducible pipelines, and teaching students to do the same."
+    "I am an Information Engineering graduate with a strong interest in data-driven technologies and digital solutions. My background spans data engineering, analytics, database systems, and applied artificial intelligence. I enjoy exploring how technology and data can be leveraged to solve complex problems and create meaningful impact.",
+    "Professionally, I have gained experience working as a contract and freelance Data Engineer, contributing to data processing, pipeline development, and database-related projects. Alongside my professional work, I have also served as a Teaching Assistant at Universitas Gadjah Mada, supporting undergraduate courses in Data Mining and Artificial Intelligence. These experiences have strengthened both my technical capabilities and my ability to communicate and share knowledge."
   ],
   "researchFocus": "RESEARCH FOCUS :: ASR · DATA PIPELINES · NLP",
   "education": [
     {
-      "title": "2024 — 2026 · M.ENG. INFORMATION ENGINEERING, UGM",
-      "note": "GPA 3.5 :: FINAL THESIS — DATA-ENGINEERING PIPELINES FOR DOMAIN-SPECIFIC ASR"
+      "title": "2026 · Data Engineering Bootcamp, Dibimbing.id",
+      "note": "Grade A :: Final Project — City Weather Data Pipeline with Airflow & DBT"
     },
     {
-      "title": "2019 — 2023 · S.TR.KOM. SOFTWARE ENGINEERING TECHNOLOGY, UGM",
-      "note": "GPA 3.7 :: APPLIED RESEARCH — MACHINE LEARNING · WEB DEVELOPMENT · NLP"
+      "title": "2024 — 2026 · M.ENG. Information Engineering, UGM",
+      "note": "GPA 3.5 :: Final Thesis — AI Data Engineering Pipeline for ASR Improvement"
+    },
+    {
+      "title": "2019 — 2023 · S.Tr.Kom. Software Engineering Technology, UGM",
+      "note": "GPA 3.7 :: Applied Research — Feature Engineering Techniques for SVM Based Text Classification"
     }
   ],
   "experience": [
     {
-      "period": "2024 — NOW",
-      "role": "TEACHING & RESEARCH ASSISTANT — DATA MINING, UGM",
-      "org": "Sekolah Vokasi / Ilkom UGM",
-      "note": "Mengampu praktik & riset data mining; mendampingi projek sklearn-based NLP terbit di IEEE."
+      "period": "May 2024 – December 2024",
+      "role": "System Analyst for Database (Data Engineer)",
+      "org": "Faculty of Science, UGM :: Contract - MINERBAONE Project ",
+      "note": "Assessed and optimized database structures, designed a unified database architecture by analyzing thousands of tables across multiple existing systems and regulatory frameworks, and collaborated with cross-functional engineering teams to establish a centralized database system for the MinerbaOne project under Indonesia’s Ministry of Energy and Mineral Resources (ESDM)."
     },
     {
-      "period": "2024",
-      "role": "SISTEM ANALIS DATABASE — MINERBAONE (KEMENTERIAN ESDM)",
-      "org": "PT. EPSI DJAYA / MDM PROJECT",
-      "note": "Memetakan ribuan tabel legacy menjadi satu sumber data MDM di sektor mineral & batubara."
-    },
-    {
-      "period": "2021 — 2024",
-      "role": "PENELITI MUDA — SISTEM NLP & SPEECH",
-      "org": "Independent / UGM Lab",
-      "note": "Fine-tune Whisper untuk domain spesifik & eksperimen feature engineering untuk klasifikasi teks."
+      "period": "January 2023 – June 2025",
+      "role": "Teaching Assistant — Data Related Courses",
+      "org": "Sekolah Vokasi UGM :: Freelance",
+      "note": "Delivered hands-on instruction and mentoring for undergraduate courses in Artificial Intelligence, Data Mining, and Distributed Administration and Information Systems, helping students translate theoretical concepts into practical implementations, troubleshoot technical challenges, and conduct academic assessment at Universitas Gadjah Mada.."
     }
   ],
   "certsLabel": "CERTS ⟶",
   "certs": [
-    { "label": "MICROSOFT AZURE AI ENGINEER ASSOCIATE · 2024", "gold": false },
-    { "label": "HUAWEI ICT ASSOCIATE — AI · 2021", "gold": true }
+    { "label": "MICROSOFT AZURE AI ENGINEER ASSOCIATE · 2024", "gold": true },
+    { "label": "HUAWEI ICT ASSOCIATE — AI · 2021", "gold": false }
   ],
   "currently": {
     "title": "CURRENTLY.",
     "rows": [
-      { "label": "STATUS", "value": "M.ENG. GRADUATE — GPA 3.5/4.0", "big": true },
-      { "label": "BASE", "value": "MADIUN, INDONESIA · OPEN TO REMOTE", "big": true },
-      { "label": "OPEN FOR", "value": "DATA ENGINEERING & APPLIED ML ROLES", "gold": true }
+      {
+        "label": "STATUS",
+        "value": "M.ENG. GRADUATE — GPA 3.5/4.0",
+        "big": true
+      },
+      {
+        "label": "BASE",
+        "value": "MADIUN, INDONESIA · OPEN TO REMOTE",
+        "big": true
+      },
+      {
+        "label": "OPEN FOR",
+        "value": "DATA ENGINEERING & APPLIED ML ROLES",
+        "gold": true
+      }
     ],
     "mailLabel": "MAIL",
     "mail": ""

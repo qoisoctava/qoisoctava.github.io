@@ -301,6 +301,7 @@ body::after {
   background: var(--navy); color: var(--paper);
   border: 2px solid var(--dark); box-shadow: 10px 10px 0 var(--dark);
   padding: 24px 26px 26px; position: relative;
+  align-self: start; /* tinggi mengikuti isi, tidak melebar mengikuti kolom kiri */
 }
 .currently__title {
   font-family: var(--mono); font-weight: 700; font-size: 14px;

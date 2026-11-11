@@ -11,13 +11,13 @@
     { "id": "publications", "label": "PUBLICATIONS" },
     { "id": "contact", "label": "CONTACT ↗" }
   ],
-  "badge": "OPEN FOR COLLAB :: DATA — ML — ASR",
-  "headline": "ON DEV!.\nDATA HANYALAH DUMMY.",
-  "heroIntro": "I turn messy operational data into systems people can actually use. I unify scattered tables into one master-data source, build pipelines that stay reproducible, and take applied machine learning through to domain-specific speech models that hold up outside the notebook.",
+  "badge": "OPEN FOR COLLAB :: DATA SCIENCE & ENGINEERING - AI - SOFTWARE DEVELOPMENT",
+  "headline": "Exploring Data. \nBuilding Solutions. \nCreating Impact.",
+  "heroIntro": "An Information Engineering graduate interested in the intersection of data, technology, and artificial intelligence. From engineering data pipelines to developing machine learning solutions, I enjoy turning ideas and complex challenges into practical implementations.",
   "stats": [
+    { "value": "4", "label": "CERTS &\nDEGREES" },
     { "value": "3", "label": "FEATURED\nPROJECTS" },
-    { "value": "3", "label": "PEER-REVIEWED\nPAPERS" },
-    { "value": "4", "label": "CERTS &\nDEGREES" }
+    { "value": "7", "label": "PEER-REVIEWED\nRESEARCHS" }
   ],
   "buttons": {
     "primary": { "label": "GET IN TOUCH ▾", "action": "menu" },

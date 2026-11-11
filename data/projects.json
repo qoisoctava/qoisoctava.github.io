@@ -1,28 +1,34 @@
 {
-  "window": { "title": "PROJECTS.EXE — SELECTED_WORK" },
+  "window": {
+    "title": "PROJECTS.EXE — SELECTED_WORK"
+  },
   "heading": "PROJECTS.",
   "items": [
     {
       "num": "01",
-      "year": "2025",
-      "title": "LLM-RAG SYSTEM FOR DISASTER MITIGATION",
-      "desc": "Fine-tuned Whisper for Indonesian disaster-specific ASR — up to 2.5× lower word error rate than the vanilla model. Built the RAG data layer: transcribed YouTube audio into structured text, auto-filtered via ChatGPT & Gemini APIs.",
-      "tags": "PYTORCH · TRANSFORMERS · WHISPER · HF: OCTAVA/WHISPER-SMALL-DISASTER"
+      "year": "2024-2025",
+      "title": "LLM-RAG System for Disaster Mitigation",
+      "desc": "Contributed to the development of an LLM-RAG system for disaster mitigation by providing fine-tuned Whisper model for domain-specific speech recognition, achieving up to 2.5x improvement in Word Error Rate (WER) compared to the vanilla model. Also developed an audio-to-text data processing pipeline using YouTube videos and automated domain-relevant text filtration using LLMs through ChatGPT and Gemini APIs. Published model: octava/whisper-small-disaster on Hugging Face.",
+      "tags": "Python, Whisper, Hugging Face, LLM, RAG, ChatGPT API, Gemini API"
     },
     {
       "num": "02",
       "year": "2024",
-      "title": "MINERBAONE GOVERNANCE WEB APP",
-      "desc": "Database architecture for Indonesia's mineral & coal governance (ESDM): analysed thousands of tables across legacy systems, unified them into one MDM source, designed a dynamic warehouse and refactored ORM queries into raw PostgreSQL.",
-      "tags": "POSTGRESQL · ERD · DATA WAREHOUSE · MDM"
+      "title": "MinerbaOne: Indonesian Mineral and Coal Mining Governance Web App",
+      "desc": "Designed and developed comprehensive Entity Relationship Diagrams (ERD) by translating complex regulatory requirements and analyzing thousands of tables across multiple existing systems into scalable database models. Designed a dynamic data warehouse architecture to support historical data tracking and future analytical use cases, while optimizing ORM queries through refactoring into raw PostgreSQL queries.",
+      "tags": "PostgreSQL, Database Design, Data Modeling, Data Warehouse, ERD, DBeaver, Laravel"
     },
     {
       "num": "03",
       "year": "2023",
-      "title": "WEB SENTIMENT ANALYSIS DASHBOARD",
-      "desc": "TF-IDF enhanced with statistical feature engineering + SVM, shipped as an intuitive web dashboard. Findings presented at the 3ICT conference and published in the IEEE proceedings.",
-      "tags": "SCIKIT-LEARN · SVM · TF-IDF · IEEE 3ICT"
+      "title": "Web-Based Sentiment Analysis Dashboard",
+      "desc": "Developed and deployed a sentiment analysis model using Term Frequency-Inverse Document Frequency (TF-IDF), statistical feature engineering, and Support Vector Machine (SVM). Integrated the model into a web-based dashboard to provide intuitive sentiment analysis and data visualization. Research findings were presented at the 3ICT conference and published in IEEE proceedings.",
+      "tags": "Python, Scikit-learn, TF-IDF, SVM, Machine Learning, Flask, ReactJS, ExpressJS, MySQL"
     }
   ],
-  "moreLink": { "label": "MORE ⟶ HF & GITHUB @OCTAVA", "href": "https://huggingface.co/octava", "external": true }
+  "moreLink": {
+    "label": "Sentiment Analysis Dashboard [DEMO]",
+    "href": "http://sa-prototype-d4.octava.my.id/",
+    "external": true
+  }
 }

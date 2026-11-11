@@ -224,7 +224,7 @@ function renderPublications() {
           <div class="p-row__num">${esc(p.num)}</div>
           <h3 class="p-row__title">${esc(p.title)}</h3>
           <div class="pub-authors">${esc(p.authors)}</div>
-          ${anchor(p.doiHref, "pub-doi", esc(p.doi), true)}
+          ${p.doiHref ? anchor(p.doiHref, "pub-doi", esc(p.doi), true) : ""}
           <div class="pub-venue">${esc(p.venue)}</div>
         </article>`
       )

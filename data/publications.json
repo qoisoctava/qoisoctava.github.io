@@ -5,7 +5,7 @@
     {
       "num": "01",
       "title": "FINE-TUNING WHISPER FOR DOMAIN-SPECIFIC ASR: TRANSCRIBING INDONESIAN YOUTUBE CONTENT ON LOCAL WISDOM IN DISASTER MITIGATION",
-      "authors": "OCTAVA, M.Q.H. · PRATAMA, A.R. · ALFAROZI, S.A.I. — FIRST AUTHOR",
+      "authors": "OCTAVA, M.Q.H. · PRATAMA, A.R. · ALFAROZI, S.A.I.",
       "doi": "DOI 10.1109/ICAICTA67604.2025.11335113",
       "doiHref": "https://doi.org/10.1109/ICAICTA67604.2025.11335113",
       "venue": "ICAICTA 2025 · IEEE"
@@ -21,10 +21,42 @@
     {
       "num": "03",
       "title": "WEB-BASED SENTIMENT ANALYSIS SYSTEM USING SVM AND TF-IDF WITH STATISTICAL FEATURE",
-      "authors": "OCTAVA, M.Q.H. · PUTRI, D.G.P. · HILMY, F.M. · FAROOQ, U. · NURHALIZA, R.A. · ALFIAN, G. — FIRST AUTHOR",
+      "authors": "OCTAVA, M.Q.H. · PUTRI, D.G.P. · HILMY, F.M. · FAROOQ, U. · NURHALIZA, R.A. · ALFIAN, G.",
       "doi": "DOI 10.1109/3ICT60104.2023.10391734",
       "doiHref": "https://doi.org/10.1109/3ICT60104.2023.10391734",
       "venue": "3ICT 2023 · IEEE · PRESENTED AT THE CONFERENCE"
+    },
+    {
+      "num": "04",
+      "title": "CUSTOMER SHOPPING BEHAVIOR ANALYSIS USING RFID AND MACHINE LEARNING MODELS",
+      "authors": "ALFIAN, G. · OCTAVA, M.Q.H. · HILMY, F.M. · NURHALIZA, R.A. · SAPUTRA, Y.M. · PUTRI, D.G.P. · et al.",
+      "doi": "DOI 10.3390/INFO14100551",
+      "doiHref": "https://doi.org/10.3390/info14100551",
+      "venue": "INFORMATION 14(10), 551 · 2023"
+    },
+    {
+      "num": "05",
+      "title": "UTILIZING RANDOM FOREST WITH IFOREST-BASED OUTLIER DETECTION AND SMOTE TO DETECT MOVEMENT AND DIRECTION OF RFID TAGS",
+      "authors": "ALFIAN, G. · SYAFRUDIN, M. · FITRIYANI, N.L. · ALAM, S. · PRATOMO, D.N. · SUBEKTI, L. · et al.",
+      "doi": "DOI 10.3390/FI15030103",
+      "doiHref": "https://doi.org/10.3390/fi15030103",
+      "venue": "FUTURE INTERNET 15(3), 103 · 2023"
+    },
+    {
+      "num": "06",
+      "title": "WEB-BASED E-COMMERCE CUSTOMER SEGMENTATION SYSTEM USING RFM AND K-MEANS MODEL",
+      "authors": "HILMY, F.M. · NURHALIZA, R.A. · OCTAVA, M.Q.H. · ALFIAN, G.",
+      "doi": "DOI 10.1109/3ICT60104.2023.10391650",
+      "doiHref": "https://doi.org/10.1109/3ICT60104.2023.10391650",
+      "venue": "2023 INTERNATIONAL CONFERENCE ON INNOVATION AND INTELLIGENCE FOR INFORMATICS · 2023"
+    },
+    {
+      "num": "07",
+      "title": "PERANCANGAN FEDERATED LEARNING BERBASIS HOMOMORPHIC ENCRYPTION UNTUK PERANGKAT INTERNET OF THINGS",
+      "authors": "SAPUTRA, Y.M. · ALFIAN, G. · OCTAVA, M.Q.H.",
+      "doi": "DOI 10.22146/jise.v4i1.6378",
+      "doiHref": "https://doi.org/10.22146/jise.v4i1.6378",
+      "venue": "J. INTERNET SOFTW. ENG. 4(1) · 2023"
     }
   ]
 }
