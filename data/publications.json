@@ -26,10 +26,5 @@
       "doiHref": "https://doi.org/10.1109/3ICT60104.2023.10391734",
       "venue": "3ICT 2023 · IEEE · PRESENTED AT THE CONFERENCE"
     }
-  ],
-  "certsLabel": "CERTS ⟶",
-  "certs": [
-    { "label": "MICROSOFT AZURE AI ENGINEER ASSOCIATE · 2024", "gold": false },
-    { "label": "HUAWEI ICT ASSOCIATE — AI · 2021", "gold": true }
   ]
 }

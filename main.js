@@ -152,6 +152,14 @@ function renderAbout() {
           .join("")}
         <div class="section-mini">EXPERIENCE ⟶</div>
         ${ex}
+        ${d.certs && d.certs.length
+          ? `<div class="cert-strip">
+              <span class="cert-text">${esc(d.certsLabel || "CERTS ⟶")}</span>
+              ${d.certs
+                .map((c) => `<span class="cert-chip cert-chip--${c.gold ? "gold" : "plain"}">${esc(c.label)}</span>`)
+                .join("")}
+            </div>`
+          : ""}
       </div>
       <aside class="currently">
         <div class="currently__title">${esc(d.currently.title)}</div>
@@ -220,13 +228,7 @@ function renderPublications() {
           <div class="pub-venue">${esc(p.venue)}</div>
         </article>`
       )
-      .join("")}
-    <div class="cert-strip">
-      <span class="cert-text">${esc(d.certsLabel)}</span>
-      ${d.certs
-        .map((c) => `<span class="cert-chip cert-chip--${c.gold ? "gold" : "plain"}">${esc(c.label)}</span>`)
-        .join("")}
-    </div>`;
+      .join("")}`;
 }
 
 /* ---------- render: contact ---------- */

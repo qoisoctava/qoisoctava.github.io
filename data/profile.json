@@ -36,6 +36,11 @@
       "note": "Fine-tune Whisper untuk domain spesifik & eksperimen feature engineering untuk klasifikasi teks."
     }
   ],
+  "certsLabel": "CERTS ⟶",
+  "certs": [
+    { "label": "MICROSOFT AZURE AI ENGINEER ASSOCIATE · 2024", "gold": false },
+    { "label": "HUAWEI ICT ASSOCIATE — AI · 2021", "gold": true }
+  ],
   "currently": {
     "title": "CURRENTLY.",
     "rows": [
