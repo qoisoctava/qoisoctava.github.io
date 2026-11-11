@@ -12,7 +12,7 @@
     { "id": "contact", "label": "CONTACT ↗" }
   ],
   "badge": "OPEN FOR COLLAB :: DATA — ML — ASR",
-  "headline": "PENGEMBANGAN.\nDATA HANYALAH DUMMY.",
+  "headline": "ON DEV!.\nDATA HANYALAH DUMMY.",
   "heroIntro": "I turn messy operational data into systems people can actually use. I unify scattered tables into one master-data source, build pipelines that stay reproducible, and take applied machine learning through to domain-specific speech models that hold up outside the notebook.",
   "stats": [
     { "value": "3", "label": "FEATURED\nPROJECTS" },

@@ -417,7 +417,7 @@ body::after {
   .navbar__links button { font-size: 9.5px; padding: 2px; line-height: 1.4; }
   .navbar__brand { font-size: 12px; gap: 8px; }
 
-  .hero { position: static; transform: none; left: auto; width: auto; padding: 0 16px; min-height: calc(100dvh - var(--nav-h)); }
+  .hero { position: static; transform: none; left: auto; width: auto; padding: var(--nav-h) 16px 0; min-height: calc(100dvh - var(--nav-h)); }
   .hero__inner { height: auto; display: block; }
   .hero__left { max-width: none; padding-top: 24px; padding-right: 0; }
   .accent-blob, .hero__right { display: none; }
