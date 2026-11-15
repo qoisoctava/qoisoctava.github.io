@@ -323,10 +323,13 @@ body::after {
 
 /* ---------- Projects / Publications rows ---------- */
 .p-row { position: relative; border-top: 3px solid var(--dark); padding: 26px 0 34px; }
+.p-row::after { content: ""; display: block; clear: both; }
 .p-row__num { position: absolute; left: 0; top: 26px; font-weight: 800; font-size: 44px; color: var(--navy); }
 .p-row__meta {
-  position: absolute; right: 0; top: 30px;
-  display: flex; align-items: center; gap: 12px;
+  float: right;
+  margin: 4px 0 12px 24px;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+  text-align: right;
 }
 .p-row__year {
   font-family: var(--mono); font-weight: 700; font-size: 13px;
@@ -342,6 +345,18 @@ body::after {
 .p-row__title { margin-left: 96px; font-weight: 800; font-size: clamp(18px, 2.2vw, 26px); max-width: 900px; }
 .p-row__desc { margin: 14px 0 0 96px; font-size: 15px; line-height: 1.6; max-width: 880px; color: var(--dark); }
 .p-row__tags { margin: 18px 0 0 96px; font-family: var(--mono); font-weight: 700; font-size: 11.5px; color: var(--navy); }
+.p-row__links { margin: 18px 0 0 96px; display: flex; flex-wrap: wrap; gap: 10px; }
+.p-link-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-weight: 700; font-size: 11.5px;
+  letter-spacing: 0.5px; text-transform: uppercase;
+  padding: 8px 14px; line-height: 1;
+  color: var(--dark); background: var(--paper);
+  border: 2px solid var(--dark); text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.p-link-btn:hover { background: var(--navy); border-color: var(--navy); color: var(--paper); }
+.p-link-btn .ext { font-size: 10px; }
 .more-link {
   display: inline-block; margin: 8px 0 0 96px;
   font-family: var(--mono); font-weight: 700; font-size: 12.5px;
@@ -466,7 +481,7 @@ body::after {
   .currently { box-shadow: 6px 6px 0 var(--dark); }
   .p-row__num { font-size: 30px; }
   .p-row__title { margin-left: 60px; font-size: 17px; }
-  .p-row__desc, .p-row__tags, .more-link, .pub-authors, .pub-doi, .pub-venue { margin-left: 60px; }
+  .p-row__desc, .p-row__tags, .p-row__links, .more-link, .pub-authors, .pub-doi, .pub-venue { margin-left: 60px; }
   .p-row__desc { font-size: 13px; }
   .contact-heading { font-size: 34px; }
   .footer-bar { height: 70px; padding: 0 16px; font-size: 10px; flex-wrap: wrap; }

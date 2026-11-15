@@ -10,7 +10,14 @@
       "kind": "Research",
       "title": "LLM-RAG System for Disaster Mitigation",
       "desc": "Contributed to the development of an LLM-RAG system for disaster mitigation by providing fine-tuned Whisper model for domain-specific speech recognition, achieving up to 2.5x improvement in Word Error Rate (WER) compared to the vanilla model. Also developed an audio-to-text data processing pipeline using YouTube videos and automated domain-relevant text filtration using LLMs through ChatGPT and Gemini APIs. Published model: octava/whisper-small-disaster on Hugging Face.",
-      "tags": "Python, Whisper, Hugging Face, LLM, RAG, ChatGPT API, Gemini API"
+      "tags": "Python, Whisper, Hugging Face, LLM, RAG, ChatGPT API, Gemini API",
+      "links": [
+        {
+          "label": "ASR Dataset",
+          "href": "https://huggingface.co/octava/whisper-small-disaster",
+          "external": true
+        }
+      ]
     },
     {
       "num": "02",
@@ -26,12 +33,14 @@
       "kind": "Research",
       "title": "Web-Based Sentiment Analysis Dashboard",
       "desc": "Developed and deployed a sentiment analysis model using Term Frequency-Inverse Document Frequency (TF-IDF), statistical feature engineering, and Support Vector Machine (SVM). Integrated the model into a web-based dashboard to provide intuitive sentiment analysis and data visualization. Research findings were presented at the 3ICT conference and published in IEEE proceedings.",
-      "tags": "Python, Scikit-learn, TF-IDF, SVM, Machine Learning, Flask, ReactJS, ExpressJS, MySQL"
+      "tags": "Python, Scikit-learn, TF-IDF, SVM, Machine Learning, Flask, ReactJS, ExpressJS, MySQL",
+      "links": [
+        {
+          "label": "Sentiment Analysis Dashboard [DEMO]",
+          "href": "http://sa-prototype-d4.octava.my.id/",
+          "external": true
+        }
+      ]
     }
-  ],
-  "moreLink": {
-    "label": "Sentiment Analysis Dashboard [DEMO]",
-    "href": "http://sa-prototype-d4.octava.my.id/",
-    "external": true
-  }
+  ]
 }
