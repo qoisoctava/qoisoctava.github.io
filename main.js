@@ -197,7 +197,10 @@ function renderProjects() {
       .map(
         (p) => `<article class="p-row">
           <div class="p-row__num">${esc(p.num)}</div>
-          <div class="p-row__year">${esc(p.year)}</div>
+          <div class="p-row__meta">
+            <div class="p-row__year">${esc(p.year)}</div>
+            ${p.kind ? `<span class="p-row__kind p-row__kind--${esc(p.kind.toLowerCase())}">${esc(p.kind)}</span>` : ""}
+          </div>
           <h3 class="p-row__title">${esc(p.title)}</h3>
           <p class="p-row__desc">${esc(p.desc)}</p>
           <div class="p-row__tags">${esc(p.tags)}</div>
