@@ -341,6 +341,7 @@ body::after {
 }
 .p-row__kind--research { background: var(--navy); color: var(--paper); border-color: var(--navy); }
 .p-row__kind--work { background: var(--dark); color: var(--gold); }
+.p-row__kind--bootcamp { background: var(--gold); color: var(--dark); }
 .p-row__kind--independent { background: var(--paper); color: var(--dark); }
 .p-row__title { margin-left: 96px; font-weight: 800; font-size: clamp(18px, 2.2vw, 26px); max-width: 900px; }
 .p-row__desc { margin: 14px 0 0 96px; font-size: 15px; line-height: 1.6; max-width: 880px; color: var(--dark); }

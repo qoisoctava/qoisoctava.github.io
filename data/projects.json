@@ -6,6 +6,21 @@
   "items": [
     {
       "num": "01",
+      "year": "2026",
+      "kind": "Bootcamp",
+      "title": "City Weather Data Pipeline & Analytics Dashboard",
+      "desc": "Built an end-to-end data pipeline for Madiun City weather forecasting as the final project of the Dibimbing.id Data Engineering Bootcamp. Extracted forecast data from the BMKG API on a daily batch schedule, stored raw data as parquet in a data lake, and transformed it through layered stages into a star schema data mart covering three analytical pillars: comfort & safety (Steadman heat index), energy proxy (solar and wind potential), and agriculture proxy (rain and irrigation flags). The pipeline is orchestrated with automated scheduling, monitoring, and retries, and feeds an interactive dashboard for 27 kelurahan across Madiun City. Graded A.",
+      "tags": "Python, Apache Airflow, dbt, SQL, Data Warehouse, Star Schema, Parquet, Data Lake, Plotly, Leaflet, BMKG API",
+      "links": [
+        {
+          "label": "GitHub Repository",
+          "href": "https://github.com/qoisoctava/firasat-cuaca-kota-madiun",
+          "external": true
+        }
+      ]
+    },
+    {
+      "num": "02",
       "year": "2024-2025",
       "kind": "Research",
       "title": "LLM-RAG System for Disaster Mitigation",
@@ -20,7 +35,7 @@
       ]
     },
     {
-      "num": "02",
+      "num": "03",
       "year": "2024",
       "kind": "Work",
       "title": "MinerbaOne: Indonesian Mineral and Coal Mining Governance Web App",
@@ -28,7 +43,7 @@
       "tags": "PostgreSQL, Database Design, Data Modeling, Data Warehouse, ERD, DBeaver, Laravel"
     },
     {
-      "num": "03",
+      "num": "04",
       "year": "2023",
       "kind": "Research",
       "title": "Web-Based Sentiment Analysis Dashboard",
