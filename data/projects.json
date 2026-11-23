@@ -13,8 +13,8 @@
       "tags": "Python, Apache Airflow, dbt, SQL, Data Warehouse, Star Schema, Parquet, Data Lake, Plotly, Leaflet, BMKG API",
       "links": [
         {
-          "label": "GitHub Repository",
-          "href": "https://github.com/qoisoctava/firasat-cuaca-kota-madiun",
+          "label": "Weather Dashboard [DEMO]",
+          "href": "https://prototype.octava.my.id/dibimbing-cuaca/",
           "external": true
         }
       ]
