@@ -23,7 +23,7 @@
       "num": "02",
       "year": "2024-2025",
       "kind": "Research",
-      "title": "LLM-RAG System for Disaster Mitigation",
+      "title": "Fine-Tuned Whisper for Domain Specific Speech Recognition",
       "desc": "Contributed to the development of an LLM-RAG system for disaster mitigation by providing fine-tuned Whisper model for domain-specific speech recognition, achieving up to 2.5x improvement in Word Error Rate (WER) compared to the vanilla model. Also developed an audio-to-text data processing pipeline using YouTube videos and automated domain-relevant text filtration using LLMs through ChatGPT and Gemini APIs. Published model: octava/whisper-small-disaster on Hugging Face.",
       "tags": "Python, Whisper, Hugging Face, LLM, RAG, ChatGPT API, Gemini API",
       "links": [
@@ -57,5 +57,13 @@
         }
       ]
     }
-  ]
+  ],
+  "independent": {
+    "label": "INDEPENDENT PROJECTS",
+    "meta": "SELF_INITIATED.TXT",
+    "heading": "INDEPENDENT PROJECTS.",
+    "note": "Self-initiated builds and experiments, developed independently without client, employer, or academic affiliation. Each entry is a personal exploration of tools, data, and ideas.",
+    "empty": "Nothing published here yet — new independent builds are in progress and will be listed in this section.",
+    "items": []
+  }
 }

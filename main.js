@@ -183,35 +183,55 @@ function renderAbout() {
 }
 
 /* ---------- render: projects ---------- */
+function projectRow(p, defaultKind) {
+  const kind = p.kind || defaultKind;
+  return `<article class="p-row">
+    <div class="p-row__num">${esc(p.num)}</div>
+    <div class="p-row__meta">
+      ${kind ? `<span class="p-row__kind p-row__kind--${esc(kind.toLowerCase())}">${esc(kind)}</span>` : ""}
+      <div class="p-row__year">${esc(p.year)}</div>
+    </div>
+    <h3 class="p-row__title">${esc(p.title)}</h3>
+    <p class="p-row__desc">${esc(p.desc)}</p>
+    <div class="p-row__tags">${esc(p.tags)}</div>
+    ${p.links && p.links.length
+      ? `<div class="p-row__links">
+          ${p.links.map((l) => anchor(l.href, "p-link-btn", esc(l.label) + (l.external ? " ↗" : ""), l.external)).join("")}
+        </div>`
+      : ""}
+  </article>`;
+}
+
 function renderProjects() {
   const d = DATA.projects;
   const win = $("#win-projects");
   windowChrome(win, d.window);
   const body = $(".window__body", win);
+  const ind = d.independent;
+  const indHTML = ind
+    ? `<div class="p-section">
+        <div class="p-section__bar">
+          <span>${esc(ind.label || "INDEPENDENT PROJECTS")}</span>
+          <span class="p-section__meta">${esc(ind.meta || "SELF_INITIATED.TXT")}</span>
+        </div>
+        <div class="win-rule"></div>
+        <h2 class="p-section__heading">${esc(ind.heading || "INDEPENDENT PROJECTS.")}</h2>
+        ${ind.note ? `<p class="p-section__note">${esc(ind.note)}</p>` : ""}
+        ${ind.items && ind.items.length
+          ? ind.items.map((p) => projectRow(p, "Independent")).join("")
+          : `<div class="p-empty">
+              <div class="p-empty__title">NO_ENTRIES.YET</div>
+              <p>${esc(ind.empty || "No entries yet.")}</p>
+            </div>`}
+      </div>`
+    : "";
   body.innerHTML = `
     <div class="win-label-row"><span>03 — PROJECTS</span><span class="end">SELECTED_WORK.TXT</span></div>
     <div class="win-rule"></div>
     <h2 class="win-heading">${esc(d.heading)}</h2>
     <div class="win-rule win-rule--after-heading"></div>
-    ${d.items
-      .map(
-        (p) => `<article class="p-row">
-          <div class="p-row__num">${esc(p.num)}</div>
-          <div class="p-row__meta">
-            ${p.kind ? `<span class="p-row__kind p-row__kind--${esc(p.kind.toLowerCase())}">${esc(p.kind)}</span>` : ""}
-            <div class="p-row__year">${esc(p.year)}</div>
-          </div>
-          <h3 class="p-row__title">${esc(p.title)}</h3>
-          <p class="p-row__desc">${esc(p.desc)}</p>
-          <div class="p-row__tags">${esc(p.tags)}</div>
-          ${p.links && p.links.length
-            ? `<div class="p-row__links">
-                ${p.links.map((l) => anchor(l.href, "p-link-btn", esc(l.label) + (l.external ? " ↗" : ""), l.external)).join("")}
-              </div>`
-            : ""}
-        </article>`
-      )
-      .join("")}
+    ${d.items.map((p) => projectRow(p)).join("")}
+    ${indHTML}
     ${d.moreLink ? anchor(d.moreLink.href, "more-link", esc(d.moreLink.label), d.moreLink.external) : ""}`;
 }
 
