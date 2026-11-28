@@ -2,7 +2,7 @@
   "brand": "QOIS.OCTAVA",
   "footer": {
     "left": "© 2026 MUHAMMAD QOIS HUZYAN OCTAVA",
-    "right": "BUILT WITH FIGCRAFT · MADE IN YOGYAKARTA ★"
+    "right": "Co-Developed with AI Agents"
   },
   "backdropOpacity": 0.25,
   "navbar": [
@@ -37,12 +37,12 @@
       },
       {
         "label": "GOOGLE SCHOLAR",
-        "href": "https://scholar.google.com/citations?user=PLACEHOLDER",
+        "href": "https://scholar.google.com/citations?hl=en&user=BqTCLFcAAAAJ",
         "external": true
       },
       {
         "label": "ACADEMIC PAGE",
-        "href": "https://academic.ugm.ac.id/PLACEHOLDER",
+        "href": "https://qoisoctava.web.ugm.ac.id/",
         "external": true
       }
     ]

@@ -64,6 +64,21 @@
     "heading": "INDEPENDENT PROJECTS.",
     "note": "Self-initiated builds and experiments, developed independently without client, employer, or academic affiliation. Each entry is a personal exploration of tools, data, and ideas.",
     "empty": "Nothing published here yet — new independent builds are in progress and will be listed in this section.",
-    "items": []
+    "items": [
+      {
+        "num": "01",
+        "year": "2026",
+        "title": "Indonesia Data Job Landscape — Analytics Dashboard",
+        "desc": "Built for personal use to keep an eye on data job opportunities across Indonesia. Scraped 611 listings from Seek, LinkedIn, and Indeed, then filtered and aggregated them into an interactive dashboard covering demand by role, geographic density and remote-work share, plus employment type and seniority breakdowns. The whole system refreshes automatically every weekend and runs on shared hosting with limited resources; the pipeline is orchestrated by Smilir, a PHP-written Airflow clone.",
+        "tags": "Web Scraping, Data Cleaning, Exploratory Data Analysis, Data Visualization, Smilir Automation, Leaflet, Apache ECharts, Interactive Dashboard",
+        "links": [
+          {
+            "label": "Data Job Landscape [DEMO]",
+            "href": "https://prototype.octava.my.id/data-job-opportunities",
+            "external": true
+          }
+        ]
+      }
+    ]
   }
 }
